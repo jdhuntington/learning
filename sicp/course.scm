@@ -140,7 +140,7 @@
 ;;;
 
 ;; trace and untrace
-(require-library "trace.ss")
+(require (lib "trace.ss"))
 
 ;; (stack-trace-on) turns on MzScheme's stack tracing. Please note
 ;; that this slows down all code quite a lot, and that you need to
