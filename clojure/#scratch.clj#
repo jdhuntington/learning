@@ -1,4 +1,0 @@
-(+ 1 1)
-
-(let [a (hash-map :a 1 :b 2)]
-  (map (fn [key] (list key (get a key))) (keys a)))
